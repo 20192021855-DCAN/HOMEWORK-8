@@ -14,7 +14,7 @@
 
 + P3
 
-![](images\P3.png)
+![](images/P3.png)
 
 
 
@@ -36,7 +36,7 @@
 
 + P9
 
-![](images\P9.png)
+![](images/P9.png)
 
 不会出现无穷计数问题，如果链路本身没有循环，减少链路开销不会导致循环，因为这是由两个节点之间的下一跳关系引起的。
 
@@ -48,14 +48,14 @@
 
 + P17
 
-  ![](images\P17.png)
+  ![](images/P17.png)
 
   + 基于**W**处的信息，看到的网络拓扑结构：
 
-    ![](images\ViewOfW.png)
+    ![](images/ViewOfW.png)
 
   + 基于**X**处的信息，看到的网络拓扑结构：
 
-    ![](images\ViewOfX.png)
+    ![](images/ViewOfX.png)
 
   产生这种结果的原因是：通往目标的路径上，X没有收到同时包含AS A和AS C的通告，也就是说X对AC链路一无所知。
